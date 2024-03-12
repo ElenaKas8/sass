@@ -1,3 +1,10 @@
+:root {
+    $red-color: red;
+$green-color:green;
+$blue-color:blue;
+$primary-color: $green-color;
+
+}
 
 body {
     background-color: $primary-color;
@@ -27,7 +34,7 @@ $primary-color: rgb(238, 181, 181);
     align-items: center;
     width: $big-width;
     height: $big-width;
-    background-color:green;
+    background-color:$green;
 }
 .middle {
     display: flex;
