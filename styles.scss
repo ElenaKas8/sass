@@ -1,0 +1,52 @@
+
+body {
+    background-color: $primary-color;
+}
+
+@function calc($a, $b) {
+    @return $a * $b;
+}
+
+$big-width: 300px;
+$middle-width: 200px;
+$small-width: 100px;
+
+$wrapper-width: 100%;
+$wrapper-height: 100%;
+$primary-color: rgb(238, 181, 181);
+
+.wrapper {
+    width: $wrapper-width;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.big {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: $big-width;
+    height: $big-width;
+    background-color:green;
+}
+.middle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: $middle-width;
+    height: $middle-width;
+    background-color:red;
+}
+.small {
+    
+    width: $small-width;
+    height: $small-width;
+    background-color:blue;
+}
+.wrapper {
+    
+    width: $wrapper-width;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
